@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/weapon"
+            android:title="Weapon"
+            />
+        <item android:id="@+id/ammo"
+            android:title="Ammo"
+            />
+        <item android:id="@+id/attach"
+            android:title="Attachments"
+            />
+        <item android:id="@+id/throwable"
+            android:title="Throwable"
+            />
+        <item android:id="@+id/consume"
+            android:title="Consumables"
+            />
+        <item android:id="@+id/maps"
+            android:title="Maps"
+            />
+        <item android:id="@+id/skills"
+            android:title="Classes"/>
+    </group>
+    <item android:title="Communicate">
+        <menu >
+            <item android:id="@+id/share"
+                android:title="Share"
+                />
+            <item android:id="@+id/report"
+                android:title="Report"
+                />
+            <item android:id="@+id/about"
+                android:title="About App"
+                />
+        </menu>
+    </item>>
+
+
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:id="@+id/customDialogTitle"
+        android:text="name"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:id="@+id/customDialogDesc"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:id="@+id/customDialogAcc"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:id="@+id/customDialogRange"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

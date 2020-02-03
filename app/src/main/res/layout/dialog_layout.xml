@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#000"
+
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/akoneoneseven"
+        android:id="@+id/dialogImage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="Damage :"
+        android:layout_below="@id/dialogImage"
+        android:id="@+id/dialogName"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Damage :"
+
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+
+        android:layout_below="@id/dialogName"
+        android:layout_marginTop="5dp"
+        android:id="@+id/dialogDamage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Damage :"
+
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/dialogDamage"
+        android:layout_marginTop="5dp"
+        android:id="@+id/dialogFire"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialogFire"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:text="Damage :"
+
+        android:layout_marginTop="5dp"
+        android:id="@+id/dialogAccu"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/dialogAccu"
+        android:text="Damage :"
+
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogMobili"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/dialogMobili"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogRange"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@id/dialogRange"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogTier"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_custom"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/dialogTier"
+        android:text="Close"
+        android:id="@+id/dialogButton"/>
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
